@@ -1,0 +1,133 @@
+
+.loader {
+    fill: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-div {
+    width: 400px; 
+    height: 80vh;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    background-color: #f7b42c;
+    background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+    margin-bottom: 10px;
+    padding: 6px 0 2px 0;
+}
+
+.item-container {
+    max-height: 75%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#to-do-form input {
+    text-align: center;
+    height: 50px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    width: 68%;
+    outline: none;
+    border-bottom: 2px solid #f7b42c;
+}
+
+
+#to-do-form input:focus, button:focus {
+    outline: none;
+}
+
+#to-do-form button:disabled {
+    font-size: larger;
+    cursor:not-allowed
+}
+
+#to-do-form button {
+    min-height: 40px;
+    height: 50px;
+    width: 80px;
+    margin-left: 10px;
+    background-color: #f7b42c;
+    background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 1.2rem;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.5);
+}
+
+/*
+.App {
+    background-color: #555555;
+    height: 80vh;
+    width: 60vw;
+    margin: 40px auto;
+}
+
+#to-do-form input {
+    background-color: lavender;
+    border: 0;
+    width: 70%;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+#to-do-form button {
+    height: 50px;
+    width: 70px;
+    margin-left: 0;
+    background-color: #008CBA;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #fff;
+    font-size: larger;
+}
+
+#to-do-form input:focus, button:focus {
+    outline: none;
+}
+
+#to-do-form button:disabled {
+    font-size: larger;
+    cursor:not-allowed
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-container {
+    max-height: 65vh;
+    overflow: scroll;
+}
+*/
